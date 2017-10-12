@@ -1,0 +1,164 @@
+/*temp border
+* {
+  border: 1px solid blue;
+}
+*/
+/*Body's General Styles*/
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+/*Header Styles*/
+header {
+  display: flex;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+/*Logo's General Styles (Tea Cozy)*/
+.logo {
+  display: flex;
+  padding-left: 10px;
+  height: 50px;
+  flex-grow: 1;
+}
+/*Nav's Styles*/
+nav {
+  display: block;
+  text-align: right;
+  flex-grow: 1;
+}
+/*Span's General Styles*/
+span {
+  display: inline-block;
+  padding: 20px 20px;
+  text-decoration: underline;
+}
+/*Definition of Anchor's color*/
+a {
+  color: seashell;
+}
+/*Main Container's Definitions*/
+.maincontainer {
+  display: block;
+  padding-top: 69px;
+  width: 1200px;
+  margin:auto;
+}
+/*Mission's Background configuration*/
+#mission {
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+}
+/*Secondary Container's Styles (defined for various containeres in the code)*/
+.seccontainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+/*Mission's Styles*/
+.missioninfo {
+  display: block;
+  background-color: black;
+  width: 100%;
+  margin:auto;
+}
+/*H2 Styles*/
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 10px;
+}
+/*H3 Styles*/
+h3{
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 10px;
+}
+/*H4 Styles*/
+h4 {
+  margin: 0px;
+  padding: 10px;
+}
+/*H5 Styles*/
+h5 {
+  font-size: 20px;
+}
+/*Featured Tea's Definitions*/
+#featured {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 69px;
+}
+/*Product Padding configuration as requested*/
+.product {
+  padding: 5px;
+}
+/*Image Class configuration*/
+.imgsize {
+  display: block;
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+/*Diferent Product Span's configuration*/
+.product span {
+  display: block;
+  margin: 5px;
+  text-decoration: none;
+}
+/*Location's Image configuration*/
+#locations {
+  height: 500px;
+  width: 1200px;
+  background-image: url("../images/img-locations-background.jpg");
+  margin: auto;
+  padding-top: 69px;
+}
+/*Location's Styles*/
+.location {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 15px 20px;
+  opacity: 1;
+  background-color: black;
+  justify-content: center;
+}
+/*Location span's Styles*/
+.location span {
+  display:block;
+  margin: 1px;
+  text-decoration: none;
+  font-weight: normal;
+}
+/*Footer Container Definitions*/
+.footercontainer {
+display: flex;
+flex-direction: column;
+margin: 10px 20px;
+}
+/*Contact's information configuration*/
+.contact {
+height: 200px;
+justify-content: center;
+display: block;
+}
+/*Copyright's text alignment*/
+.copyright {
+  text-align: left;
+}
